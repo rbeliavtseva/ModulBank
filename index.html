@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>ООО «Родные просторы»</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <a class="logo" href="#" aria-label="Лого Модульбанк">
+          <svg class="logo__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000494764 4.7997L0 0H4.7997L4.80069 4.7997H0.000494764ZM9.60114 0H14.4003H19.2001V4.7997H14.4003H9.60114V0ZM19.2001 9.59941V9.59966L14.4003 9.59966H9.60114V14.3989H14.4003V14.4013H19.2001V19.1996V23.9998H23.9993V19.1996V14.3989H19.2001V9.59966H23.9995L24 4.79971H19.2001H14.4003V9.59941H19.2001ZM9.60114 24V19.2L14.4003 19.1996V24H9.60114ZM9.60089 4.79971H4.80069V9.59941H9.60089V4.79971ZM4.7997 14.3989L4.80069 9.59966H9.60114V14.3989H4.7997ZM9.60089 19.2001V14.3989H4.7997H0V19.2001V23.9998H4.7997L4.7997 19.2001H9.60089ZM0.000494764 4.79971L0 9.59966L4.80069 9.59966L4.80069 4.79971H0.000494764Z" fill="#00417B"/>
+          </svg>
+        </a>
+        <input class="search-input" id="search" type="text" name="search" placeholder="Поиск" value="">
+        <label class="visually-hidden" for="search">Поиск</label>
+      </div>
+      <nav class="site-nav">
+        <ul class="site-nav__list">
+          <li class="site-nav__item site-nav__item--active"><a class="site-nav__item-link" href="#">Деньги</a></li>
+          <li class="site-nav__item"><a class="site-nav__item-link" href="#">Контакты</a></li>
+          <li class="site-nav__item"><a class="site-nav__item-link site-nav__item-link--extend" href="#">Услуги</a></li>
+        </ul>
+      </nav>
+      <button class="new-payment-btn" type="button"><span class="visually-hidden">Новый платеж</span></button>
+      <div class="user-nav">
+        <button class="user-nav__notifications-btn" type="button"><span class="visually-hidden">Уведомления</span></button>
+        <button type="button" class="user-nav__user-profile-btn">ООО «Родные просторы»</button>
+      </div>
+    </header>
+    <main>
+      <section class="payment">
+        <header class="payment__header">
+          <h1 class="payment__heading">Платежное поручение № 5241234 от 23.09.2015</h1>
+          <button class="payment__close-btn" type="button"><span class="visually-hidden">Закрыть</span></button>
+        </header>
+        <div class="payment__aligner">
+          <div class="payment__info">
+            <span class="payment__price">– 23 500,00 ₽</span>
+            <span class="payment__account">со счета: Расчетный счет (***012345)</span>
+          </div>
+          <div class="status">ИСПОЛНЕН, 21 июня 15:33</div>
+          <div class="payment__wrapper">
+            <div class="company-card">
+              <div class="company-card__column">
+                <h2 class="company-card__company-title">ООО "Родные просторы"</h2>
+                <table class="company-card__account-details">
+                  <tbody>
+                    <tr>
+                      <th>ИНН:</th>
+                      <td>22341497819132</td>
+                    </tr>
+                    <tr>
+                      <th>Банк:</th>
+                      <td>ОАО Сбербанк</td>
+                    </tr>
+                    <tr>
+                      <th>БИК:</th>
+                      <td>2352362365</td>
+                    </tr>
+                    <tr>
+                      <th>Счет:</th>
+                      <td>40802810970010000395</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <ul class="company-card__stats">
+                <li class="company-card__stats-item">
+                  <div class="company-card__stats-text">Высокая финансовая устойчивость</div>
+                  <div class="company-card__stats-round level">
+                    <div class="level__circle level__circle--88">
+                      <span class="level__number">88</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="company-card__stats-item">
+                  <div class="company-card__stats-text">Высокая благонадежность</div>
+                  <div class="company-card__stats-round level">
+                    <div class="level__circle level__circle--100">
+                      <span class="level__number">100</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="company-card__stats-item">
+                  <div class="company-card__stats-text">Кредитоспособность 44,5&nbsp;млрд&nbsp;₽</div>
+                  <div class="company-card__stats-round level">
+                    <div class="level__circle level__circle--class">
+                      <span class="level__number level__number--class-number">1</span>
+                      <span class="level__number level__number--class-text">Класс</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="company-card__payment-details">
+              Оплата за партию ромашек и одуванчиков по договору 14023-023 от 14.05.2015 г. Сумма 11430-00. В том числе НДС 18% - 1450,00 ₽
+            </div>
+          </div>
+          <div class="commission-info">
+            Комиссия банка: 70 р.<br>
+            Размер комиссии рассчитан автоматически согласно тарифу вашей компании и является ознакомительным. 
+            Точный размер комиссии определяется после передачи платежного документа на обработку в банк.
+          </div>
+        </div>
+        <footer class="payment__footer">
+          <div class="payment__toolbar toolbar">
+            <ul class="toolbar__list">
+              <li class="toolbar__item toolbar__item--repeat"><a class="toolbar__item-link" href="#">Повторить</a></li>
+              <li class="toolbar__item toolbar__item--favourite"><a class="toolbar__item-link" href="#">В избранное</a></li>
+              <li class="toolbar__item toolbar__item--ask"><a class="toolbar__item-link" href="#">Спросить</a></li>
+              <li class="toolbar__item toolbar__item--actions"><a class="toolbar__item-link" href="#">Действия</a></li>
+            </ul>
+          </div>
+        </footer>
+      </section>
+    </main>
+
+    <script>
+      const input = document.querySelector('.search-input');
+      const changeWidth = (evt) => {
+        if (evt.target.value !== 0) {
+          input.style.width = 200 + `px`;
+        }
+      }
+      input.addEventListener(`input`, changeWidth);
+    </script>
+    
+  </body>
+</html>
